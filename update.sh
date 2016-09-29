@@ -1,6 +1,6 @@
 #!/bin/sh
 
-URL="https://bitbucket.org/pidgin/main"
+URL="https://bitbucket.org/CMaiku/pidgin"
 HASHG=$(_TMP_=$(type hg 2>&1); echo $?)
 
 if test "$HASHG" != "0"; then
